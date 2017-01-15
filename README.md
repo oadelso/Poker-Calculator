@@ -7,7 +7,7 @@ It models a deck of cards via a vector containing the integers from 1 to 52. Eac
 ###2 MatrixToNumber
 This R function converts the output of the *cards* R function into an integer from 1 to 52.
 ###3.NumberToMatrix
-This R function converts a number from 1 to 52 to a matrix with the same format as the *cards* function.
+This R function converts an integer from 1 to 52 to a matrix with the same format as the *cards* R function's output.
 ###4. Hand
 It receives a 2 by 5 matrix from the *cards* R function and returns an integer from 1 to 10. Each integer represents a specific, 5-card poker hand. One represents a 'card high' hand, Two a 'pair', all the way to ten representing a 'Royal Flush.'
 ###5. Handrank
