@@ -4,9 +4,9 @@ This repository contains a total of nine R functions which are needed to run a p
 ##R Functions
 ###1. Cards
 It models a deck of cards via a vector containing the integers from 1 to 52. Each of these integers represents a specific card in a standard deck. The R function returns a predefined number of cards by first shuffling the values of the vector and returning a 2-row matrix. The first row is an integer from 1 to 13, with 1 representing an Ace, 2 a 2, all the way to 13 representing a king. The second row is an integer from 1 to 4, which provides information on the type of suit. For the purposes of this project, 1 represents a spade, 2 represents a club, 3 represents a diamond, and 4 hearts.
-###2 MatrixToNumber
+###2 Matrixtonumber
 This R function converts the output of the *cards* R function into an integer from 1 to 52.
-###3.NumberToMatrix
+###3.Numbertomatrix
 This R function converts an integer from 1 to 52 to a matrix with the same format as the *cards* R function's output.
 ###4. Hand
 It receives a 2 by 5 matrix from the *cards* R function and returns an integer from 1 to 10. Each integer represents a specific, 5-card poker hand. One represents a 'card high' hand, Two a 'pair', all the way to ten representing a 'Royal Flush.'
